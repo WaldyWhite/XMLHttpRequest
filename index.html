@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>XMLHttpRequest</title>
+</head>
+<body>
+    <section class="body-section">
+        <h1 class="body-section__title">XMLHttpRequest</h1>
+        <div class="section-descript">
+            <h4 class="section-descript__title">Механизм работы приложения</h4>
+            <ol class="section-descript__list">
+                <li class="item">Создаём функцию <em>useRequest</em>, которая будет осуществлять запрос</li>
+                <li class="item">Создаём функцию <em>displayResult</em>для сборки карточик и вставки на страницу</li>
+                <li class="item">Ищем элемент ктопки и блока с результатом</li>
+                <li class="item">Вешаем событие <em>click</em>на кгопку, которая делает запрос с помощью функции <em>diplayResult</em></li>
+            </ol>
+            <button class="btn j-dtn-request">Запрос</button>
+        </div>
+        
+        <div class="result j-result"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
